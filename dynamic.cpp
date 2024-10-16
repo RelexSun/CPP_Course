@@ -47,19 +47,13 @@ int main() {
 
   for(int i = 0; i < size; i++) {
     std::cout << "Enter grade #" << i+1 << ": ";
+    std::cin >> p_Grades[i];
   }
 
   for(int i = 0; i < size; i++) {
     std::cout << p_Grades[i] << " ";
   }
-
   delete[] p_Grades;
-
-  int size1;
-  std::cout << "How many grades to enter in: ";
-  std::cin >> size1;
-
-  int grades[size1];
 
   return 0;
 }

@@ -46,8 +46,11 @@
 - Used for variables or arrays whose sizes are known **before the program runs**.
 - Memory is allocated during the **compilation phase**.
 - Example:
-  ```cpp
-  int arr[10];  // Fixed size array known at compile-time
+
+  int arr[10]; // Fixed size array known at compile-time
+
+  ```
+
   ```
 
 ### Dynamic Memory Allocation (Run-Time)

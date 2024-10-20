@@ -13,6 +13,9 @@ int main() {
 
   double x = (int) 3.14;
 
+  double haha = 10.5;
+  std::cout << (int) haha;
+
   std::cout << x;
 
 

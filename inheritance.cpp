@@ -1,7 +1,7 @@
 #include <iostream>
 
 class Animal {
-  public:
+  protected:
     bool alive = true;
     
     void eat() {
@@ -14,6 +14,10 @@ class Dog : public Animal {
     void bark() {
       std::cout << "The dog goes woof!\n";
     }
+    bool getAlive() {
+      return alive;
+    }
+
 };
 
 class Cat : public Animal {
@@ -32,6 +36,7 @@ int main() {
 
   Dog dog;
   dog.bark();
+  dog.getAlive();
 
   return 0;
 }

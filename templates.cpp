@@ -26,6 +26,8 @@ int main() {
 
   std::cout << max(2, 10) << std::endl;
 
+  std::cout << max(2, 10.2) << std::endl;
+
 
   return 0;
 }
